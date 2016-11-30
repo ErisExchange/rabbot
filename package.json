@@ -101,7 +101,7 @@
     "machina": "^2.0.0",
     "monologue.js": "^0.3.5",
     "node-uuid": "^1.4.7",
-    "postal": "^2.0.4",
+    "postal": "ErisExchange/postal.js#ctr-fix_cache_memory_leak",
     "when": "^3.7.7",
     "whistlepunk": "^0.3.2"
   }
