@@ -11,6 +11,9 @@ var topLog = require( "../log" )( "rabbot.topology" );
 var unhandledLog = require( "../log" )( "rabbot.unhandled" );
 var noOp = function() {};
 
+// Disable caching because of memory leak
+postal.configuration.resolverNoCache = true;
+
 /* log
 	* `rabbot.amqp-queue`
 	  * `debug`
